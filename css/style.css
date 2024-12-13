@@ -1,0 +1,130 @@
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: hsl(30, 54%, 90%);
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+    }
+    
+    h1 {
+        color: hsl(24, 5%, 18%);
+        font-size: 43px;
+    }
+    
+    h2,
+    h3 {
+        color: hsl(14, 45%, 36%);
+        font-size: 28px;
+    }
+    
+    p {
+        padding: 0;
+    }
+    
+    ul,
+    ol {
+        margin-top: 20px;
+    }
+    
+    li {
+        margin-top: 0.7rem;
+        line-height: 1.6rem;
+        padding-inline-start: 1.5rem;
+    }
+    
+    li::marker {
+        color: hsl(14, 45%, 36%);
+        font-weight: bold;
+    }
+    
+    .header-stlye {
+        font-family: "Young Serif", system-ui;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .section-style {
+        margin: 2rem 0 2rem 0;
+    }
+    
+    .box {
+        width: 702px;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 10px;
+        padding: 20px 37px;
+    }
+    
+    .box img {
+        display: block;
+        text-align: center;
+        width: 628px;
+        height: 200px;
+        margin: 14px auto 20px auto;
+        border-radius: 10px;
+    }
+    /* Preparation Section */
+    
+    .preparation-section {
+        background-color: hsl(30, 54%, 90%);
+        padding: 22px 29px 13px 29px;
+        border-radius: 5px;
+    }
+    
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+    
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+    /* Nutrition Section */
+    
+    #nutrition-table {
+        width: 100%;
+    }
+    
+    #nutrition-table th,
+    #nutrition-table td {
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+        padding: 10px 0;
+    }
+    
+    #nutrition-table td:nth-child(even) {
+        color: brown;
+    }
+    
+    #nutrition-table td:nth-child(odd) {
+        padding-left: 30px;
+    }
+    
+    @media (max-width: 720px) {
+        body {
+            margin-top: 0;
+        }
+        h1 {
+            font-size: 27px;
+        }
+        .box {
+            width: 360px;
+            padding: 0px;
+            margin: 0 auto 20px auto;
+            border-radius: 0;
+        }
+        .box img {
+            width: 360px;
+            margin-top: 0px;
+            border-radius: 0;
+            height: 155px;
+        }
+        .content {
+            padding: 16px 24px;
+        }
+    }
